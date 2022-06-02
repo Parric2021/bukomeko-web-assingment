@@ -1,0 +1,154 @@
+*
+
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/*body part starts here....................*/
+body{
+margin: 0px;
+padding: 0px;
+background-color:skyblue;
+background-image: url(twitter-logo.png);
+background-repeat: no-repeat;
+background-size:950px;
+}
+#twiter-page{
+    position: relative;
+}
+/*body part ends here....................*/
+
+
+/*left part starts here..................*/
+.left-part{
+    position: fixed;
+    top: 200px;
+    left: 300px;
+}
+
+.left-part p {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+letter-spacing: 2px;
+line-height: 60px;
+font-size: 18px;
+
+}
+/*left part ends here......................*/
+
+/*rigt part starts here...................*/
+.right-part  {
+position: fixed;
+left: 750px;
+background-color: whitesmoke;
+margin-bottom: 30px;
+width: 700px;
+height: 100%;
+}
+form{
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+input{
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #eeeeee;
+    outline: none;
+    border: none;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.right-part .txt1{
+    position: absolute;
+    color: black;
+    left: 25px;
+    top: 0;
+}
+
+.right-part .txt2{
+    position: absolute;
+    color: black;
+    left: 220px;
+    top: 0;   
+}
+
+.top-btn-login{
+padding: 10px;    
+border-radius: 20px;
+width: 80px;
+border-color: #1589FF;
+color: #1589FF;
+background-color: white;
+}
+a{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    color:#1589FF;
+    left: 250px;
+}
+
+/*middle-part starts here.............*/
+.middle-part{
+    position: relative;
+     top: 200px;
+     left: 100px;
+     font-family: Arial, Helvetica, sans-serif;
+     background-image: url(twitter-logo.png);
+     background-repeat: no-repeat;
+     background-size: 30px; 
+     position: absolute;
+     padding: 30px;
+}
+
+.middle-btn-signup{
+padding:10px;
+border-radius: 50px;
+width: 400px;
+background-color: #1589FF;
+border-color: #1589FF;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: white;
+}
+.last-btn-log-in{
+    padding:10px;
+    border-radius: 50px;
+    width: 400px;
+    background-color: white;
+    border-color: #1589FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:#1589FF;  
+}
+/*middle-part ends here.............*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    ;
+
+}
+
+
+.img{
+    height: 25px;
+    width:25px;
+    padding:5px;
+}
+h5{
+    clor:black;
+}
+
+
+
+
+
+
